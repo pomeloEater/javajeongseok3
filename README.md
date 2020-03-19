@@ -36,6 +36,7 @@ Windows - Preferences : 검색창에 'encoding' 입력 후 나오는 항목마�
 - 'sysout' + Ctrl + Space : System.out.println(); 자동완성
 - Ctrl (+ Shift) + '/' : (블록) 주석
 - Ctrl + I : 들여쓰기 자동 수정
+- Ctrl + Alt + 위/아래 화살표 : 한 줄 복사
 - Alt + 위/아래 화살표 : 줄 이동
 - Ctrl + F11 : 실행
 - Alt + Shift + N : 새 파일 만들기
