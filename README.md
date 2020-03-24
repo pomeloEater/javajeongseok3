@@ -5,6 +5,7 @@
 - jdk 1.8
 - Eclipse IDE 2019-12
 
+
 ## 공부할 것
 
 
@@ -30,7 +31,20 @@
 
 
 #### Eclipse/VSCode/GithubDesktop 한글 깨짐 문제 해결법
-Windows - Preferences : 검색창에 'encoding' 입력 후 나오는 항목마다 Default encoding을 'UTF-8'로 업데이트한다.
+Windows - Preferences : 검색창에 'encoding' 입력 후 나오는 항목마다
+Default encoding을 'UTF-8'로 업데이트한다.
+
+#### Exlipse //TODO Auto-generated method stub 주석 제거 방법
+> Window - Preferences
+>> Java - Code Style - Code Templates
+>>>Code - Method body
+
+```
+// ${todo} Auto-generated method stub
+${body_statement}
+```
+주석 부분을 삭제 후 Apply한다.
+
 
 #### Eclipse 단축키
 - 'sysout' + Ctrl + Space : System.out.println(); 자동완성
