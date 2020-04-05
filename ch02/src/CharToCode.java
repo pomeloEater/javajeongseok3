@@ -4,11 +4,11 @@ public class CharToCode {
 		
 		char ch = 'A';//char ch = 65;
 		int code = (int)ch;
-		//chì— ì €ì¥ëœ ê°’ì„ int íƒ€ì…ìœ¼ë¡œ ë³€í™˜ í›„ ì €ì¥
+		//ch¿¡ ÀúÀåµÈ °ªÀ» int Å¸ÀÔÀ¸·Î º¯È¯ ÈÄ ÀúÀå
 		
 		System.out.printf("%c=%d(%#X)%n", ch, code, code);
 		
-		char hch = 'ê°€'; //char hch = 0xAC00
+		char hch = '°¡'; //char hch = 0xAC00
 		System.out.printf("%c=%d(%#X)%n", hch, (int)hch, (int)hch);
 	}
 
