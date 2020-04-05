@@ -1,10 +1,9 @@
 
-# Created by https://www.gitignore.io/api/java,windows,eclipse
-# Edit at https://www.gitignore.io/?templates=java,windows,eclipse
+# Created by https://www.gitignore.io/api/java,windows,eclipse,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=java,windows,eclipse,visualstudiocode
 
 ### Eclipse ###
 .metadata
-.vscode
 bin/
 tmp/
 *.tmp
@@ -97,6 +96,17 @@ local.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -123,4 +133,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/java,windows,eclipse
+# End of https://www.gitignore.io/api/java,windows,eclipse,visualstudiocode
