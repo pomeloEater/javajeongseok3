@@ -7,7 +7,7 @@ public class MyVector implements List {
 	
 	public MyVector(int capacity) {
 		if (capacity <0)
-			throw new IllegalArgumentException ("À¯È¿ÇÏÁö ¾ÊÀº °ªÀÔ´Ï´Ù. :"+capacity);
+			throw new IllegalArgumentException ("ìœ íš¨í•˜ì§€ ì•Šì€ ê°’ì…ë‹ˆë‹¤. :"+capacity);
 		this.capacity = capacity;
 		data = new Object[capacity];
 	}
@@ -29,7 +29,7 @@ public class MyVector implements List {
 	
 	public Object get(int index) {
 		if(index<0 || index >= size)
-			throw new IndexOutOfBoundsException("¹üÀ§¸¦ ¹ş¾î³µ½À´Ï´Ù.");
+			throw new IndexOutOfBoundsException("ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ìŠµë‹ˆë‹¤.");
 		return data[index];
 	}
 	
@@ -37,7 +37,7 @@ public class MyVector implements List {
 		Object oldObj = null;
 		
 		if(index < 0 || index>=size)
-			throw new IndexOutOfBoundsException("¹üÀ§¸¦ ¹ş¾î³µ½À´Ï´Ù.");
+			throw new IndexOutOfBoundsException("ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ìŠµë‹ˆë‹¤..");
 		oldObj = data[index];
 		
 		if(index != size-1) {
@@ -90,7 +90,7 @@ public class MyVector implements List {
 	public int size() {return size;}
 	
 	/*************************************/
-	/*     ListÀÎÅÍÆäÀÌ½º·ÎºÎÅÍ »ó¼Ó¹ŞÀº ¸Ş¼­µåµé        */
+	/*    List ì¸í„°í˜ì´ìŠ¤ë¡œë¶€í„° ìƒì†ë°›ì€ ë©”ì„œë“œë“¤        */
 	/*************************************/
 	
 //	public int size();
@@ -119,7 +119,7 @@ public class MyVector implements List {
 	public ListIterator listIterator(int index) {return null;}
 	public List subList(int fromIndex, int toIndex) {return null;}
 	
-	default void sort (Comparator c) {/* ³»¿ë »ı·« */}
-	default Spliterator spliterator() {/* ³»¿ë »ı·« */}
-	default void replaceAll(UnaryOperator operator) {/* ³»¿ë »ı·« */}
+//	default void sort (Comparator c) {/* ë‚´ìš© ìƒëµ */}
+//	default Spliterator spliterator() {/* ë‚´ìš© ìƒëµ */}
+//	default void replaceAll(UnaryOperator operator) {/* ë‚´ìš© ìƒëµ */}
 }
